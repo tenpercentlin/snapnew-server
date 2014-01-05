@@ -1,9 +1,24 @@
 /*
  * GET home page.
  */
+var history = [];
 
 exports.index = function(req, res){
-  var obj = { photo: 'test'};
+  res.send(history);
+  res.end();
+};
 
-  res.send(obj);
+exports.create = function(req, res){
+	var photo = req.query.photo;
+	var title = req.query.title;
+
+	history.push({
+		"photo": photo,
+		"title": title
+	});
+
+	res.send({
+		"status": "ok"
+	});
+  	res.end();
 };

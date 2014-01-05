@@ -1,0 +1,8 @@
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-10" id="photo"><img src="image/nba.jpg"></div>
+  			<div class="col-xs-6 col-md-2" id="message">NBA</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-10" id="photo"><img src="image/nba.jpeg"></div>
+  			<div class="col-xs-6 col-md-2" id="message">NBA</div>
+		</div>
